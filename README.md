@@ -1,4 +1,6 @@
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=ACACACA4&center=true&vCenter=true&multiline=true&random=false&width=846&height=80&lines=Hi!+I'm+Taewoo+Kim;I'm+studying+SpringBoot+And+Unity.)](https://git.io/typing-svg)
+<br>
+<br>
 <img src="https://capsule-render.vercel.app/api?type=waving&color=BDBDC8&height=150&section=header" />
 
 <div align="center">
