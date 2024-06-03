@@ -1,4 +1,7 @@
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=ACACACA4&center=true&vCenter=true&multiline=true&random=false&width=846&height=80&lines=Hi!+I'm+Taewoo+Kim;I'm+studying+SpringBoot+And+Unity.)](https://git.io/typing-svg)
+![Taeng's GitHub stats](https://github-readme-stats.vercel.app/api?username=yujun07&theme=ambient_gradient&show_icons=true)
+
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=yujun07&theme=ambient_gradient)](https://github.com/anuraghazra/github-readme-stats)
 <br>
 <br>
 <img src="https://capsule-render.vercel.app/api?type=waving&color=BDBDC8&height=150&section=header" />
