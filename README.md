@@ -1,6 +1,25 @@
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=ACACACA4&center=true&vCenter=true&multiline=true&random=false&width=846&height=80&lines=Hi!+I'm+Taewoo+Kim;I'm+studying+SpringBoot+And+Unity.)](https://git.io/typing-svg)
-<br>
-<br>
+```cs
+using UnityEngine;
+
+public class Taeng_README : Taeng_Github
+{
+    public string Name = "Kim Tae Woo";
+    public readonly Birthday = "2007_07_20";
+    public string Learning = "Unity";
+    public string[] Awards_array = new string[3];
+
+    void Awards()
+    {
+        if(Learning == "Unity")
+        {
+            Awards_array[0] = "STAC"; 
+            Awards_array[1] = "AppJam_24"; 
+            Awards_array[2] = "Rookie_Challengers";
+            Awards_array[3] = "AppJam_25"; 
+        }
+    }
+}
+```
 <img src="https://capsule-render.vercel.app/api?type=waving&color=BDBDC8&height=150&section=header" />
 
 <div align="center">
