@@ -1,25 +1,3 @@
-```cs
-using UnityEngine;
-
-public class Taeng_README : Taeng_Github
-{
-    public string Name = "Kim Tae Woo";
-    public readonly Birthday = "2007_07_20";
-    public string Learning = "Unity";
-    public string[] Awards_array = new string[3];
-
-    void Awards()
-    {
-        if(Learning == "Unity")
-        {
-            Awards_array[0] = "STAC"; 
-            Awards_array[1] = "AppJam_24"; 
-            Awards_array[2] = "Rookie_Challengers";
-            Awards_array[3] = "AppJam_25"; 
-        }
-    }
-}
-```
 <img src="https://capsule-render.vercel.app/api?type=waving&color=BDBDC8&height=150&section=header" />
 
 <div align="center">
@@ -44,3 +22,26 @@ public class Taeng_README : Taeng_Github
     <img src="https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white" />
 </div>
 <img src="https://capsule-render.vercel.app/api?type=waving&color=BDBDC8&height=150&section=footer" />
+
+```cs
+using UnityEngine;
+
+public class Taeng_README : Taeng_Github
+{
+    public string Name = "Kim Tae Woo";
+    public readonly Birthday = "2007_07_20";
+    public string Learning = "Unity";
+    public string[] Awards_array = new string[3];
+
+    void Awards()
+    {
+        if(Learning == "Unity")
+        {
+            Awards_array[0] = "STAC"; 
+            Awards_array[1] = "AppJam_24"; 
+            Awards_array[2] = "Rookie_Challengers";
+            Awards_array[3] = "AppJam_25"; 
+        }
+    }
+}
+```
