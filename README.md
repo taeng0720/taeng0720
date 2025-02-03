@@ -1,5 +1,6 @@
 ```cs
 using UnityEngine;
+using System.Collections.Generic;
 
 // 🎨 Taeng's GitHub Profile Code 🏆
 // --------------------------------
@@ -13,10 +14,11 @@ public class Taeng : Taeng_Github
     public readonly string Birthday = "2007_07_20";
 
     [SerializeField]
-    private string Learning; // 현재 배우고 있는 기술
+    private string Learning;
 
-    // 🏆 수상 목록
-    public string[] Awards_array = new string[4];
+    public List<string> Awards_list = new List<string>();
+
+    public List<string> Collaborations = new List<string>();
 
     void FixedUpdate()
     {
@@ -36,29 +38,25 @@ public class Taeng : Taeng_Github
             { "Csharp", "Middle" },
             { "Unity", "High" }
         };
-
-        foreach (var skill in skills)
-        {
-            Debug.Log($"🔹 {skill.Key}: {skill.Value}");
-        }
     }
 
     // 🏅 수상 내역 업데이트
     void Awards()
     {
-        if (Learning == "Unity")
-        {
-            Awards_array[0] = "🏆 STAC"; 
-            Awards_array[1] = "🎨 AppJam_24"; 
-            Awards_array[2] = "🚀 Rookie_Challengers";
-            Awards_array[3] = "🔥 AppJam_25"; 
-        }
+        Awards_list.Add("🏴‍☠️ LogCon Hackathon Winner (Cybersecurity & Hacking)");
+        Awards_list.Add("📌 Gyeongbuk Creative Convergence Talent Development Project (Planning)");
+        Awards_list.Add("🤖 SW-AI Talent Development Project - Finalist (Planning)");
+        Awards_list.Add("🏆 STAC");
+        Awards_list.Add("🎨 AppJam_24");
+        Awards_list.Add("🚀 Rookie_Challengers");
+        Awards_list.Add("🔥 AppJam_25");
 
-        // 📝 수상 내역 출력
-        foreach (var award in Awards_array)
-        {
-            Debug.Log($"🏅 {award}");
-        }
+    }
+    void Collaborate()
+    {
+        Collaborations.Add("🚀 Mainoo Games (Ongoing)");
+        Collaborations.Add("🎮 용 게임즈 (Ongoing)");
+        Collaborations.Add("🐰 Rabbit Hole (Completed)");
     }
 }
 
