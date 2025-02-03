@@ -32,6 +32,7 @@ public class Taeng : Taeng_Github
             { "Spring", "Low" },
             { "React", "Low" },
             { "Java", "Middle" },
+            { "Photo Shop", "Middle" },
             { "Csharp", "Middle" },
             { "Unity", "High" }
         };
