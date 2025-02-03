@@ -15,10 +15,9 @@ public class Taeng : Taeng_Github
     [SerializeField]
     private string Learning; // 현재 배우고 있는 기술
 
-    // 🏆 수상 목록 (기본 크기 설정)
+    // 🏆 수상 목록
     public string[] Awards_array = new string[4];
 
-    // 🎮 Unity FixedUpdate (매 프레임마다 실행됨)
     void FixedUpdate()
     {
         Study();   // 📖 학습 중인 기술 업데이트
@@ -37,7 +36,6 @@ public class Taeng : Taeng_Github
             { "Unity", "High" }
         };
 
-        // 📝 학습 내용 출력
         foreach (var skill in skills)
         {
             Debug.Log($"🔹 {skill.Key}: {skill.Value}");
