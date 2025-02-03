@@ -1,54 +1,69 @@
-
 ```cs
 using UnityEngine;
 
+// 🎨 Taeng's GitHub Profile Code 🏆
+// --------------------------------
+// 🖥️ Game Developer | 🎮 Unity Enthusiast | 🚀 Always Learning
+// --------------------------------
+
 public class Taeng : Taeng_Github
 {
+    // 👤 Personal Information
     public string Name = "Kim Tae Woo";
-    public readonly Birthday = "2007_07_20";
+    public readonly string Birthday = "2007_07_20";
+
     [SerializeField]
-    private string Learning;
-    public string[] Awards_array = new string[3];
+    private string Learning; // 현재 배우고 있는 기술
+
+    // 🏆 수상 목록 (기본 크기 설정)
+    public string[] Awards_array = new string[4];
+
+    // 🎮 Unity FixedUpdate (매 프레임마다 실행됨)
     void FixedUpdate()
     {
-        Study();
-        Awards();
+        Study();   // 📖 학습 중인 기술 업데이트
+        Awards();  // 🏆 수상 내역 업데이트
     }
+
+    // 📚 학습 중인 기술 리스트
     void Study()
     {
-        public String Spring = "Low";
-        public String React = "Low";
-        public String Java = "Middle";
-        public String Csharp = "Middle";
-        public String Unity = "High";
+        var skills = new Dictionary<string, string>
+        {
+            { "Spring", "Low" },
+            { "React", "Low" },
+            { "Java", "Middle" },
+            { "Csharp", "Middle" },
+            { "Unity", "High" }
+        };
+
+        // 📝 학습 내용 출력
+        foreach (var skill in skills)
+        {
+            Debug.Log($"🔹 {skill.Key}: {skill.Value}");
+        }
     }
 
+    // 🏅 수상 내역 업데이트
     void Awards()
     {
-        if(Learning == "Unity")
+        if (Learning == "Unity")
         {
-            Awards_array[0] = "STAC"; 
-            Awards_array[1] = "AppJam_24"; 
-            Awards_array[2] = "Rookie_Challengers";
-            Awards_array[3] = "AppJam_25"; 
+            Awards_array[0] = "🏆 STAC"; 
+            Awards_array[1] = "🎨 AppJam_24"; 
+            Awards_array[2] = "🚀 Rookie_Challengers";
+            Awards_array[3] = "🔥 AppJam_25"; 
         }
-        /*
-        if(Learning == "Planning")
-        {
-            Awards_array[4] = ""; 
-            Awards_array[5] = ""; 
-            Awards_array[6] = "";
-            Awards_array[7] = ""; 
-        }
-        if(Learning == "Web")
-        {
-            Awards_array[8] = ""; 
-            Awards_array[9] = ""; 
-            Awards_array[10] = "";
-            Awards_array[11] = ""; 
-        }
-*/
-    }
 
+        // 📝 수상 내역 출력
+        foreach (var award in Awards_array)
+        {
+            Debug.Log($"🏅 {award}");
+        }
+    }
 }
+
+// --------------------------------
+// 🎨 Keep Growing, Keep Coding 🚀
+// --------------------------------
 ```
