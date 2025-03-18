@@ -22,11 +22,10 @@ public class Taeng : Taeng_Github
 
     void FixedUpdate()
     {
-        Study();   // 📖 학습 중인 기술 업데이트
-        Awards();  // 🏆 수상 내역 업데이트
+        Study(); 
+        Awards(); 
     }
 
-    // 📚 학습 중인 기술 리스트
     void Study()
     {
         var skills = new Dictionary<string, string>
@@ -55,7 +54,7 @@ public class Taeng : Taeng_Github
     void Collaborate()
     {
         Collaborations.Add("🚀 Mainoo Games (Ongoing)");
-        Collaborations.Add("🎮 용 게임즈 (Ongoing)");
+        Collaborations.Add("🎮 용 게임즈 (Completed)");
         Collaborations.Add("🐰 Rabbit Hole (Completed)");
     }
 }
